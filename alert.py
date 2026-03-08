@@ -20,11 +20,11 @@ DISPLAY_TZ_NAME = "UTC"
 ALERT_COOLDOWN_SECONDS = 300
 
 CONFIG = {
-    "BTC_AUD":  {"stuck_seconds": 180, "spread_seconds": 60, "spread_pct_threshold": 0.30},
-    "ETH_AUD":  {"stuck_seconds": 180, "spread_seconds": 60, "spread_pct_threshold": 0.40},
+    "BTC_AUD":  {"stuck_seconds": 180, "spread_seconds": 60, "spread_pct_threshold": 0.80},
+    "ETH_AUD":  {"stuck_seconds": 180, "spread_seconds": 60, "spread_pct_threshold": 0.80},
     "SOL_AUD":  {"stuck_seconds": 180, "spread_seconds": 60, "spread_pct_threshold": 0.80},
-    "USDT_AUD": {"stuck_seconds": 180, "spread_seconds": 60, "spread_pct_threshold": 0.20},
-    "USDC_AUD": {"stuck_seconds": 180, "spread_seconds": 60, "spread_pct_threshold": 0.20},
+    "USDT_AUD": {"stuck_seconds": 180, "spread_seconds": 60, "spread_pct_threshold": 0.80},
+    "USDC_AUD": {"stuck_seconds": 180, "spread_seconds": 60, "spread_pct_threshold": 0.80},
 }
 
 SYMBOLS = list(CONFIG.keys())
